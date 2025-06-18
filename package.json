@@ -23,5 +23,8 @@
   ],
   "peerDependencies": {
     "webpack": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "npm ci ; node ./node_modules/jest/bin/jest.js test/download-font-plugin.test.js"
   }
 }
