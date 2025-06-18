@@ -29,5 +29,8 @@
   },
   "scripts": {
     "test": "node --test test/download-font-plugin.test.js"
-    }
+    },
+  "publishConfig": {
+    "access": "public"
+  }
 }
