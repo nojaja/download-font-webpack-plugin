@@ -1,0 +1,27 @@
+{
+  "name": "download-font-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin to download and bundle web fonts.",
+  "main": "dist/download-font-plugin.js",
+  "module": "dist/download-font-plugin.js",
+  "exports": {
+    ".": {
+      "import": "./dist/download-font-plugin.js",
+      "require": "./dist/download-font-plugin.js"
+    }
+  },
+  "type": "module",
+  "keywords": ["webpack", "plugin", "font", "download", "webfont"],
+  "author": "nojaja",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "dist/"
+  ],
+  "peerDependencies": {
+    "webpack": ">=5.0.0"
+  }
+}
